@@ -16,7 +16,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6EC7513F19C4116E009F0E00"
                BuildableName = "CocoaAsyncSocket.framework"
-               BlueprintName = "CocoaAsyncSocket"
+               BlueprintName = "CocoaAsyncSocket OSX"
                ReferencedContainer = "container:CocoaAsyncSocket.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -44,7 +44,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6EC7513F19C4116E009F0E00"
             BuildableName = "CocoaAsyncSocket.framework"
-            BlueprintName = "CocoaAsyncSocket"
+            BlueprintName = "CocoaAsyncSocket OSX"
             ReferencedContainer = "container:CocoaAsyncSocket.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -63,7 +63,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6EC7513F19C4116E009F0E00"
             BuildableName = "CocoaAsyncSocket.framework"
-            BlueprintName = "CocoaAsyncSocket"
+            BlueprintName = "CocoaAsyncSocket OSX"
             ReferencedContainer = "container:CocoaAsyncSocket.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -81,7 +81,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6EC7513F19C4116E009F0E00"
             BuildableName = "CocoaAsyncSocket.framework"
-            BlueprintName = "CocoaAsyncSocket"
+            BlueprintName = "CocoaAsyncSocket OSX"
             ReferencedContainer = "container:CocoaAsyncSocket.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
