@@ -16,8 +16,8 @@
 		6E95D0A31B2AA561000DD4DA /* CocoaAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EC7514519C4116E009F0E00 /* CocoaAsyncSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6E95D0A41B2AA561000DD4DA /* GCDAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E5D505B1B29E375006593B3 /* GCDAsyncSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6E95D0A51B2AA561000DD4DA /* GCDAsyncUdpSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E5D505D1B29E375006593B3 /* GCDAsyncUdpSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6E95D0D41B2AABB6000DD4DA /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E95D0D31B2AAB9F000DD4DA /* CocoaLumberjack.framework */; };
-		6E95D0D51B2AABBE000DD4DA /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E95D0D11B2AAB9F000DD4DA /* CocoaLumberjack.framework */; };
+		6E95D1061B2AB033000DD4DA /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E95D1051B2AB033000DD4DA /* CocoaLumberjack.framework */; };
+		6E95D10A1B2AB07D000DD4DA /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E95D1091B2AB07D000DD4DA /* CocoaLumberjack.framework */; };
 		6EC7514619C4116E009F0E00 /* CocoaAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EC7514519C4116E009F0E00 /* CocoaAsyncSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6EC7515019C4116E009F0E00 /* CocoaAsyncSocketTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EC7514F19C4116E009F0E00 /* CocoaAsyncSocketTests.m */; };
 /* End PBXBuildFile section */
@@ -28,8 +28,8 @@
 		6E5D505D1B29E375006593B3 /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GCDAsyncUdpSocket.h; path = ../../GCD/GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
 		6E5D505E1B29E375006593B3 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncUdpSocket.m; path = ../../GCD/GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
 		6E95D0AA1B2AA561000DD4DA /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CocoaAsyncSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6E95D0D11B2AAB9F000DD4DA /* CocoaLumberjack.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CocoaLumberjack.framework; sourceTree = "<group>"; };
-		6E95D0D31B2AAB9F000DD4DA /* CocoaLumberjack.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CocoaLumberjack.framework; sourceTree = "<group>"; };
+		6E95D1051B2AB033000DD4DA /* CocoaLumberjack.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaLumberjack.framework; path = ../Carthage/Build/Mac/CocoaLumberjack.framework; sourceTree = "<group>"; };
+		6E95D1091B2AB07D000DD4DA /* CocoaLumberjack.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaLumberjack.framework; path = ../Carthage/Build/iOS/CocoaLumberjack.framework; sourceTree = "<group>"; };
 		6EC7514019C4116E009F0E00 /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CocoaAsyncSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EC7514419C4116E009F0E00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6EC7514519C4116E009F0E00 /* CocoaAsyncSocket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CocoaAsyncSocket.h; sourceTree = "<group>"; };
@@ -43,7 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E95D0D51B2AABBE000DD4DA /* CocoaLumberjack.framework in Frameworks */,
+				6E95D10A1B2AB07D000DD4DA /* CocoaLumberjack.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,7 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E95D0D41B2AABB6000DD4DA /* CocoaLumberjack.framework in Frameworks */,
+				6E95D1061B2AB033000DD4DA /* CocoaLumberjack.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,28 +68,26 @@
 		6E5D505A1B29E172006593B3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6E95D0D21B2AAB9F000DD4DA /* Mac */,
-				6E95D0D01B2AAB9F000DD4DA /* iOS */,
+				6E95D1071B2AB037000DD4DA /* OS X */,
+				6E95D1081B2AB046000DD4DA /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		6E95D0D01B2AAB9F000DD4DA /* iOS */ = {
+		6E95D1071B2AB037000DD4DA /* OS X */ = {
 			isa = PBXGroup;
 			children = (
-				6E95D0D11B2AAB9F000DD4DA /* CocoaLumberjack.framework */,
+				6E95D1051B2AB033000DD4DA /* CocoaLumberjack.framework */,
 			);
-			name = iOS;
-			path = ../Carthage/Build/iOS;
+			name = "OS X";
 			sourceTree = "<group>";
 		};
-		6E95D0D21B2AAB9F000DD4DA /* Mac */ = {
+		6E95D1081B2AB046000DD4DA /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				6E95D0D31B2AAB9F000DD4DA /* CocoaLumberjack.framework */,
+				6E95D1091B2AB07D000DD4DA /* CocoaLumberjack.framework */,
 			);
-			name = Mac;
-			path = ../Carthage/Build/Mac;
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		6EC7513619C4116E009F0E00 = {
@@ -333,10 +331,11 @@
 				);
 				INFOPLIST_FILE = CocoaAsyncSocket/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = CocoaAsyncSocket;
-				SDKROOT = iphoneos8.3;
+				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				VALID_ARCHS = "arm64 armv7 armv7s i386";
@@ -357,10 +356,11 @@
 				);
 				INFOPLIST_FILE = CocoaAsyncSocket/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = CocoaAsyncSocket;
-				SDKROOT = iphoneos8.3;
+				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				VALID_ARCHS = "arm64 armv7 armv7s i386";
