@@ -474,7 +474,7 @@
 				SDKROOT = macosx10.9;
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = macosx;
-				VALID_ARCHS = x86_64;
+				VALID_ARCHS = "i386 x86_64";
 			};
 			name = Debug;
 		};
@@ -497,7 +497,7 @@
 				SDKROOT = macosx10.9;
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = macosx;
-				VALID_ARCHS = x86_64;
+				VALID_ARCHS = "i386 x86_64";
 			};
 			name = Release;
 		};
