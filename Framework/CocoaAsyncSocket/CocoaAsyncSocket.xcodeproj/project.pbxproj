@@ -7,39 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E0269271B30520F0035A643 /* AsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E0269231B30520F0035A643 /* AsyncSocket.h */; };
+		6E0269281B30520F0035A643 /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E0269241B30520F0035A643 /* AsyncSocket.m */; };
+		6E0269291B30520F0035A643 /* AsyncUdpSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E0269251B30520F0035A643 /* AsyncUdpSocket.h */; };
+		6E02692A1B30520F0035A643 /* AsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E0269261B30520F0035A643 /* AsyncUdpSocket.m */; };
+		6E02692D1B30521F0035A643 /* GCDAsyncUdpSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E02692B1B30521F0035A643 /* GCDAsyncUdpSocket.h */; };
+		6E02692E1B30521F0035A643 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E02692C1B30521F0035A643 /* GCDAsyncUdpSocket.m */; };
 		6EC7514619C4116E009F0E00 /* CocoaAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EC7514519C4116E009F0E00 /* CocoaAsyncSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6EC7515019C4116E009F0E00 /* CocoaAsyncSocketTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EC7514F19C4116E009F0E00 /* CocoaAsyncSocketTests.m */; };
 		6EC7515B19C411F1009F0E00 /* GCDAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EC7515919C411F1009F0E00 /* GCDAsyncSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6EC7515C19C411F1009F0E00 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EC7515A19C411F1009F0E00 /* GCDAsyncSocket.m */; };
 		6EC7515D19C411F1009F0E00 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EC7515A19C411F1009F0E00 /* GCDAsyncSocket.m */; };
-		6EC7516C19C4122E009F0E00 /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EC7516419C411FF009F0E00 /* CocoaLumberjack.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		6EC7516319C411FF009F0E00 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6EC7515E19C411FF009F0E00 /* Lumberjack.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = DCB3185114EB418E001CFBEE;
-			remoteInfo = CocoaLumberjack;
-		};
-		6EC7516519C411FF009F0E00 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6EC7515E19C411FF009F0E00 /* Lumberjack.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = DCB318CA14ED6C3B001CFBEE;
-			remoteInfo = FmwkTest;
-		};
-		6EC7516A19C41229009F0E00 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6EC7515E19C411FF009F0E00 /* Lumberjack.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = DCB3185014EB418E001CFBEE;
-			remoteInfo = CocoaLumberjack;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		6E0269231B30520F0035A643 /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AsyncSocket.h; path = ../../../RunLoop/AsyncSocket.h; sourceTree = "<group>"; };
+		6E0269241B30520F0035A643 /* AsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AsyncSocket.m; path = ../../../RunLoop/AsyncSocket.m; sourceTree = "<group>"; };
+		6E0269251B30520F0035A643 /* AsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AsyncUdpSocket.h; path = ../../../RunLoop/AsyncUdpSocket.h; sourceTree = "<group>"; };
+		6E0269261B30520F0035A643 /* AsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AsyncUdpSocket.m; path = ../../../RunLoop/AsyncUdpSocket.m; sourceTree = "<group>"; };
+		6E02692B1B30521F0035A643 /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GCDAsyncUdpSocket.h; path = ../../../GCD/GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		6E02692C1B30521F0035A643 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncUdpSocket.m; path = ../../../GCD/GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
 		6EC7514019C4116E009F0E00 /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CocoaAsyncSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EC7514419C4116E009F0E00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6EC7514519C4116E009F0E00 /* CocoaAsyncSocket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CocoaAsyncSocket.h; sourceTree = "<group>"; };
@@ -48,7 +35,6 @@
 		6EC7514F19C4116E009F0E00 /* CocoaAsyncSocketTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CocoaAsyncSocketTests.m; sourceTree = "<group>"; };
 		6EC7515919C411F1009F0E00 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GCDAsyncSocket.h; path = ../../../GCD/GCDAsyncSocket.h; sourceTree = "<group>"; };
 		6EC7515A19C411F1009F0E00 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncSocket.m; path = ../../../GCD/GCDAsyncSocket.m; sourceTree = "<group>"; };
-		6EC7515E19C411FF009F0E00 /* Lumberjack.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Lumberjack.xcodeproj; path = ../../CocoaLumberjack/Framework/Desktop/Lumberjack.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +42,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6EC7516C19C4122E009F0E00 /* CocoaLumberjack.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,7 +58,6 @@
 		6EC7513619C4116E009F0E00 = {
 			isa = PBXGroup;
 			children = (
-				6EC7515E19C411FF009F0E00 /* Lumberjack.xcodeproj */,
 				6EC7514219C4116E009F0E00 /* CocoaAsyncSocket */,
 				6EC7514C19C4116E009F0E00 /* CocoaAsyncSocketTests */,
 				6EC7514119C4116E009F0E00 /* Products */,
@@ -95,6 +79,12 @@
 				6EC7514519C4116E009F0E00 /* CocoaAsyncSocket.h */,
 				6EC7515919C411F1009F0E00 /* GCDAsyncSocket.h */,
 				6EC7515A19C411F1009F0E00 /* GCDAsyncSocket.m */,
+				6E02692B1B30521F0035A643 /* GCDAsyncUdpSocket.h */,
+				6E02692C1B30521F0035A643 /* GCDAsyncUdpSocket.m */,
+				6E0269231B30520F0035A643 /* AsyncSocket.h */,
+				6E0269241B30520F0035A643 /* AsyncSocket.m */,
+				6E0269251B30520F0035A643 /* AsyncUdpSocket.h */,
+				6E0269261B30520F0035A643 /* AsyncUdpSocket.m */,
 				6EC7514319C4116E009F0E00 /* Supporting Files */,
 			);
 			path = CocoaAsyncSocket;
@@ -125,15 +115,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		6EC7515F19C411FF009F0E00 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				6EC7516419C411FF009F0E00 /* CocoaLumberjack.framework */,
-				6EC7516619C411FF009F0E00 /* FmwkTest.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -141,7 +122,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E0269271B30520F0035A643 /* AsyncSocket.h in Headers */,
+				6E02692D1B30521F0035A643 /* GCDAsyncUdpSocket.h in Headers */,
 				6EC7514619C4116E009F0E00 /* CocoaAsyncSocket.h in Headers */,
+				6E0269291B30520F0035A643 /* AsyncUdpSocket.h in Headers */,
 				6EC7515B19C411F1009F0E00 /* GCDAsyncSocket.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -161,7 +145,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				6EC7516B19C41229009F0E00 /* PBXTargetDependency */,
 			);
 			name = CocoaAsyncSocket;
 			productName = CocoaAsyncSocket;
@@ -191,7 +174,7 @@
 		6EC7513719C4116E009F0E00 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0600;
+				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "Deusty LLC";
 				TargetAttributes = {
 					6EC7513F19C4116E009F0E00 = {
@@ -212,12 +195,6 @@
 			mainGroup = 6EC7513619C4116E009F0E00;
 			productRefGroup = 6EC7514119C4116E009F0E00 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 6EC7515F19C411FF009F0E00 /* Products */;
-					ProjectRef = 6EC7515E19C411FF009F0E00 /* Lumberjack.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				6EC7513F19C4116E009F0E00 /* CocoaAsyncSocket */,
@@ -225,23 +202,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		6EC7516419C411FF009F0E00 /* CocoaLumberjack.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = CocoaLumberjack.framework;
-			remoteRef = 6EC7516319C411FF009F0E00 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		6EC7516619C411FF009F0E00 /* FmwkTest.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = FmwkTest.app;
-			remoteRef = 6EC7516519C411FF009F0E00 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		6EC7513E19C4116E009F0E00 /* Resources */ = {
@@ -265,7 +225,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E02692E1B30521F0035A643 /* GCDAsyncUdpSocket.m in Sources */,
+				6E02692A1B30520F0035A643 /* AsyncUdpSocket.m in Sources */,
 				6EC7515C19C411F1009F0E00 /* GCDAsyncSocket.m in Sources */,
+				6E0269281B30520F0035A643 /* AsyncSocket.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,14 +242,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		6EC7516B19C41229009F0E00 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = CocoaLumberjack;
-			targetProxy = 6EC7516A19C41229009F0E00 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		6EC7515119C4116E009F0E00 /* Debug */ = {
@@ -380,6 +335,7 @@
 		6EC7515419C4116E009F0E00 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -398,6 +354,7 @@
 		6EC7515519C4116E009F0E00 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -416,6 +373,7 @@
 		6EC7515719C4116E009F0E00 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -433,6 +391,7 @@
 		6EC7515819C4116E009F0E00 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
