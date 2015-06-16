@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6E0269271B30520F0035A643 /* AsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E0269231B30520F0035A643 /* AsyncSocket.h */; };
+		6E0269271B30520F0035A643 /* AsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E0269231B30520F0035A643 /* AsyncSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6E0269281B30520F0035A643 /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E0269241B30520F0035A643 /* AsyncSocket.m */; };
-		6E0269291B30520F0035A643 /* AsyncUdpSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E0269251B30520F0035A643 /* AsyncUdpSocket.h */; };
+		6E0269291B30520F0035A643 /* AsyncUdpSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E0269251B30520F0035A643 /* AsyncUdpSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6E02692A1B30520F0035A643 /* AsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E0269261B30520F0035A643 /* AsyncUdpSocket.m */; };
-		6E02692D1B30521F0035A643 /* GCDAsyncUdpSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E02692B1B30521F0035A643 /* GCDAsyncUdpSocket.h */; };
+		6E02692D1B30521F0035A643 /* GCDAsyncUdpSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E02692B1B30521F0035A643 /* GCDAsyncUdpSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6E02692E1B30521F0035A643 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E02692C1B30521F0035A643 /* GCDAsyncUdpSocket.m */; };
 		6EC7514619C4116E009F0E00 /* CocoaAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EC7514519C4116E009F0E00 /* CocoaAsyncSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6EC7515019C4116E009F0E00 /* CocoaAsyncSocketTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EC7514F19C4116E009F0E00 /* CocoaAsyncSocketTests.m */; };
@@ -124,8 +124,8 @@
 			files = (
 				6E0269271B30520F0035A643 /* AsyncSocket.h in Headers */,
 				6E02692D1B30521F0035A643 /* GCDAsyncUdpSocket.h in Headers */,
-				6EC7514619C4116E009F0E00 /* CocoaAsyncSocket.h in Headers */,
 				6E0269291B30520F0035A643 /* AsyncUdpSocket.h in Headers */,
+				6EC7514619C4116E009F0E00 /* CocoaAsyncSocket.h in Headers */,
 				6EC7515B19C411F1009F0E00 /* GCDAsyncSocket.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
