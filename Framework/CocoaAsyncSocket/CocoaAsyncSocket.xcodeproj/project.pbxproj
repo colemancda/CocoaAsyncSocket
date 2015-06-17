@@ -13,6 +13,17 @@
 		6E02692A1B30520F0035A643 /* AsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E0269261B30520F0035A643 /* AsyncUdpSocket.m */; };
 		6E02692D1B30521F0035A643 /* GCDAsyncUdpSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E02692B1B30521F0035A643 /* GCDAsyncUdpSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6E02692E1B30521F0035A643 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E02692C1B30521F0035A643 /* GCDAsyncUdpSocket.m */; };
+		6E9678101B31F262003AFBBA /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E02692C1B30521F0035A643 /* GCDAsyncUdpSocket.m */; };
+		6E9678111B31F262003AFBBA /* AsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E0269261B30520F0035A643 /* AsyncUdpSocket.m */; };
+		6E9678121B31F262003AFBBA /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EC7515A19C411F1009F0E00 /* GCDAsyncSocket.m */; };
+		6E9678131B31F262003AFBBA /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E0269241B30520F0035A643 /* AsyncSocket.m */; };
+		6E9678161B31F262003AFBBA /* AsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E0269231B30520F0035A643 /* AsyncSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E9678171B31F262003AFBBA /* GCDAsyncUdpSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E02692B1B30521F0035A643 /* GCDAsyncUdpSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E9678181B31F262003AFBBA /* AsyncUdpSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E0269251B30520F0035A643 /* AsyncUdpSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E9678191B31F262003AFBBA /* CocoaAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EC7514519C4116E009F0E00 /* CocoaAsyncSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E96781A1B31F262003AFBBA /* GCDAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EC7515919C411F1009F0E00 /* GCDAsyncSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E9678231B31F2B9003AFBBA /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EC7515A19C411F1009F0E00 /* GCDAsyncSocket.m */; };
+		6E9678241B31F2B9003AFBBA /* CocoaAsyncSocketTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EC7514F19C4116E009F0E00 /* CocoaAsyncSocketTests.m */; };
 		6EC7514619C4116E009F0E00 /* CocoaAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EC7514519C4116E009F0E00 /* CocoaAsyncSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6EC7515019C4116E009F0E00 /* CocoaAsyncSocketTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EC7514F19C4116E009F0E00 /* CocoaAsyncSocketTests.m */; };
 		6EC7515B19C411F1009F0E00 /* GCDAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EC7515919C411F1009F0E00 /* GCDAsyncSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -27,6 +38,8 @@
 		6E0269261B30520F0035A643 /* AsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AsyncUdpSocket.m; path = ../../../RunLoop/AsyncUdpSocket.m; sourceTree = "<group>"; };
 		6E02692B1B30521F0035A643 /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GCDAsyncUdpSocket.h; path = ../../../GCD/GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
 		6E02692C1B30521F0035A643 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncUdpSocket.m; path = ../../../GCD/GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+		6E96781F1B31F262003AFBBA /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CocoaAsyncSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E96782A1B31F2B9003AFBBA /* CocoaAsyncSocketTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CocoaAsyncSocketTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EC7514019C4116E009F0E00 /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CocoaAsyncSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EC7514419C4116E009F0E00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6EC7514519C4116E009F0E00 /* CocoaAsyncSocket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CocoaAsyncSocket.h; sourceTree = "<group>"; };
@@ -38,6 +51,20 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		6E9678141B31F262003AFBBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E9678251B31F2B9003AFBBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6EC7513C19C4116E009F0E00 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -69,6 +96,8 @@
 			children = (
 				6EC7514019C4116E009F0E00 /* CocoaAsyncSocket.framework */,
 				6EC7514B19C4116E009F0E00 /* CocoaAsyncSocketTests.xctest */,
+				6E96781F1B31F262003AFBBA /* CocoaAsyncSocket.framework */,
+				6E96782A1B31F2B9003AFBBA /* CocoaAsyncSocketTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -118,6 +147,18 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		6E9678151B31F262003AFBBA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E9678161B31F262003AFBBA /* AsyncSocket.h in Headers */,
+				6E9678171B31F262003AFBBA /* GCDAsyncUdpSocket.h in Headers */,
+				6E9678181B31F262003AFBBA /* AsyncUdpSocket.h in Headers */,
+				6E9678191B31F262003AFBBA /* CocoaAsyncSocket.h in Headers */,
+				6E96781A1B31F262003AFBBA /* GCDAsyncSocket.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6EC7513D19C4116E009F0E00 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -133,9 +174,44 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		6EC7513F19C4116E009F0E00 /* CocoaAsyncSocket */ = {
+		6E96780E1B31F262003AFBBA /* CocoaAsyncSocket iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6EC7515319C4116E009F0E00 /* Build configuration list for PBXNativeTarget "CocoaAsyncSocket" */;
+			buildConfigurationList = 6E96781C1B31F262003AFBBA /* Build configuration list for PBXNativeTarget "CocoaAsyncSocket iOS" */;
+			buildPhases = (
+				6E96780F1B31F262003AFBBA /* Sources */,
+				6E9678141B31F262003AFBBA /* Frameworks */,
+				6E9678151B31F262003AFBBA /* Headers */,
+				6E96781B1B31F262003AFBBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CocoaAsyncSocket iOS";
+			productName = CocoaAsyncSocket;
+			productReference = 6E96781F1B31F262003AFBBA /* CocoaAsyncSocket.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6E9678211B31F2B9003AFBBA /* CocoaAsyncSocketTests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E9678271B31F2B9003AFBBA /* Build configuration list for PBXNativeTarget "CocoaAsyncSocketTests iOS" */;
+			buildPhases = (
+				6E9678221B31F2B9003AFBBA /* Sources */,
+				6E9678251B31F2B9003AFBBA /* Frameworks */,
+				6E9678261B31F2B9003AFBBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CocoaAsyncSocketTests iOS";
+			productName = CocoaAsyncSocketTests;
+			productReference = 6E96782A1B31F2B9003AFBBA /* CocoaAsyncSocketTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6EC7513F19C4116E009F0E00 /* CocoaAsyncSocket OS X */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EC7515319C4116E009F0E00 /* Build configuration list for PBXNativeTarget "CocoaAsyncSocket OS X" */;
 			buildPhases = (
 				6EC7513B19C4116E009F0E00 /* Sources */,
 				6EC7513C19C4116E009F0E00 /* Frameworks */,
@@ -146,14 +222,14 @@
 			);
 			dependencies = (
 			);
-			name = CocoaAsyncSocket;
+			name = "CocoaAsyncSocket OS X";
 			productName = CocoaAsyncSocket;
 			productReference = 6EC7514019C4116E009F0E00 /* CocoaAsyncSocket.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		6EC7514A19C4116E009F0E00 /* CocoaAsyncSocketTests */ = {
+		6EC7514A19C4116E009F0E00 /* CocoaAsyncSocketTests OS X */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6EC7515619C4116E009F0E00 /* Build configuration list for PBXNativeTarget "CocoaAsyncSocketTests" */;
+			buildConfigurationList = 6EC7515619C4116E009F0E00 /* Build configuration list for PBXNativeTarget "CocoaAsyncSocketTests OS X" */;
 			buildPhases = (
 				6EC7514719C4116E009F0E00 /* Sources */,
 				6EC7514819C4116E009F0E00 /* Frameworks */,
@@ -163,7 +239,7 @@
 			);
 			dependencies = (
 			);
-			name = CocoaAsyncSocketTests;
+			name = "CocoaAsyncSocketTests OS X";
 			productName = CocoaAsyncSocketTests;
 			productReference = 6EC7514B19C4116E009F0E00 /* CocoaAsyncSocketTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -197,13 +273,29 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6EC7513F19C4116E009F0E00 /* CocoaAsyncSocket */,
-				6EC7514A19C4116E009F0E00 /* CocoaAsyncSocketTests */,
+				6EC7513F19C4116E009F0E00 /* CocoaAsyncSocket OS X */,
+				6EC7514A19C4116E009F0E00 /* CocoaAsyncSocketTests OS X */,
+				6E96780E1B31F262003AFBBA /* CocoaAsyncSocket iOS */,
+				6E9678211B31F2B9003AFBBA /* CocoaAsyncSocketTests iOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		6E96781B1B31F262003AFBBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E9678261B31F2B9003AFBBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6EC7513E19C4116E009F0E00 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -221,6 +313,26 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		6E96780F1B31F262003AFBBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E9678101B31F262003AFBBA /* GCDAsyncUdpSocket.m in Sources */,
+				6E9678111B31F262003AFBBA /* AsyncUdpSocket.m in Sources */,
+				6E9678121B31F262003AFBBA /* GCDAsyncSocket.m in Sources */,
+				6E9678131B31F262003AFBBA /* AsyncSocket.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E9678221B31F2B9003AFBBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E9678231B31F2B9003AFBBA /* GCDAsyncSocket.m in Sources */,
+				6E9678241B31F2B9003AFBBA /* CocoaAsyncSocketTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6EC7513B19C4116E009F0E00 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -244,6 +356,82 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		6E96781D1B31F262003AFBBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = CocoaAsyncSocket/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = CocoaAsyncSocket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				VALID_ARCHS = "arm64 armv7 armv7s";
+			};
+			name = Debug;
+		};
+		6E96781E1B31F262003AFBBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = CocoaAsyncSocket/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = CocoaAsyncSocket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				VALID_ARCHS = "arm64 armv7 armv7s";
+			};
+			name = Release;
+		};
+		6E9678281B31F2B9003AFBBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CocoaAsyncSocketTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = CocoaAsyncSocketTests;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				VALID_ARCHS = "arm64 armv7 armv7s";
+			};
+			name = Debug;
+		};
+		6E9678291B31F2B9003AFBBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CocoaAsyncSocketTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = CocoaAsyncSocketTests;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				VALID_ARCHS = "arm64 armv7 armv7s";
+			};
+			name = Release;
+		};
 		6EC7515119C4116E009F0E00 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -282,10 +470,10 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALID_ARCHS = "arm64 armv7 armv7s i386 x86_64";
+				VALID_ARCHS = "i386 x86_64";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -322,11 +510,11 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = iphoneos;
-				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
-				VALID_ARCHS = "arm64 armv7 armv7s i386 x86_64";
+				VALID_ARCHS = "i386 x86_64";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -343,11 +531,8 @@
 				INFOPLIST_FILE = CocoaAsyncSocket/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
+				PRODUCT_NAME = CocoaAsyncSocket;
 				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos macosx";
-				VALID_ARCHS = "arm64 armv7 armv7s i386 x86_64";
 			};
 			name = Debug;
 		};
@@ -362,11 +547,8 @@
 				INFOPLIST_FILE = CocoaAsyncSocket/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
+				PRODUCT_NAME = CocoaAsyncSocket;
 				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos macosx";
-				VALID_ARCHS = "arm64 armv7 armv7s i386 x86_64";
 			};
 			name = Release;
 		};
@@ -375,7 +557,7 @@
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(SDKROOT)",
 					"$(inherited)",
 				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -384,7 +566,7 @@
 				);
 				INFOPLIST_FILE = CocoaAsyncSocketTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = CocoaAsyncSocketTests;
 			};
 			name = Debug;
 		};
@@ -393,18 +575,36 @@
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(SDKROOT)",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = CocoaAsyncSocketTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = CocoaAsyncSocketTests;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		6E96781C1B31F262003AFBBA /* Build configuration list for PBXNativeTarget "CocoaAsyncSocket iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E96781D1B31F262003AFBBA /* Debug */,
+				6E96781E1B31F262003AFBBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E9678271B31F2B9003AFBBA /* Build configuration list for PBXNativeTarget "CocoaAsyncSocketTests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E9678281B31F2B9003AFBBA /* Debug */,
+				6E9678291B31F2B9003AFBBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		6EC7513A19C4116E009F0E00 /* Build configuration list for PBXProject "CocoaAsyncSocket" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -414,7 +614,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6EC7515319C4116E009F0E00 /* Build configuration list for PBXNativeTarget "CocoaAsyncSocket" */ = {
+		6EC7515319C4116E009F0E00 /* Build configuration list for PBXNativeTarget "CocoaAsyncSocket OS X" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6EC7515419C4116E009F0E00 /* Debug */,
@@ -423,7 +623,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6EC7515619C4116E009F0E00 /* Build configuration list for PBXNativeTarget "CocoaAsyncSocketTests" */ = {
+		6EC7515619C4116E009F0E00 /* Build configuration list for PBXNativeTarget "CocoaAsyncSocketTests OS X" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6EC7515719C4116E009F0E00 /* Debug */,
